@@ -71,7 +71,7 @@ void *Light2(void *data)
 void *Light3(void *data)
 {
     struct sched_param param;
-    param.sched_priority = MY_PRIORITY-; 
+    param.sched_priority = MY_PRIORITY-1; 
     if (sched_setscheduler(0, SCHED_FIFO, &param) == -1) 
     {
         printf("Run the program as a sudo user\n");
