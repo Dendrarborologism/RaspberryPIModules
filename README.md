@@ -1,5 +1,5 @@
 # RaspberryPIModules
-In order from when I worked on them to familiarize myself with embedded systems programming by programming various functions for a pre-configured raspberry pi: 
+In order from when I worked on them to familiarize myself with embedded systems programming by programming various functions for a pre-configured raspberry pi running Ubuntu: 
 
 # OnAndOffx5.c 
 This file is to be installed as a Kernel module into the pi at your disposal. To run it, first ensure that you have set up a pair of SSH authentication keys for the pi
